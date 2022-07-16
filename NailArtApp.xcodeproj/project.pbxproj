@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954BF5E32883114C00323D8A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954BF5E22883114C00323D8A /* CameraViewController.swift */; };
+		954BF5E5288311A800323D8A /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954BF5E4288311A800323D8A /* SocialViewController.swift */; };
 		BA44230A28824702007C90B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44230928824702007C90B5 /* AppDelegate.swift */; };
 		BA44230C28824702007C90B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44230B28824702007C90B5 /* SceneDelegate.swift */; };
-		BA44230E28824702007C90B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44230D28824702007C90B5 /* ViewController.swift */; };
+		BA44230E28824702007C90B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44230D28824702007C90B5 /* HomeViewController.swift */; };
 		BA44231128824702007C90B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA44230F28824702007C90B5 /* Main.storyboard */; };
 		BA44231428824702007C90B5 /* NailArtApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA44231228824702007C90B5 /* NailArtApp.xcdatamodeld */; };
 		BA44231628824705007C90B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA44231528824705007C90B5 /* Assets.xcassets */; };
@@ -37,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		954BF5E22883114C00323D8A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		954BF5E4288311A800323D8A /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 		BA44230628824702007C90B5 /* NailArtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NailArtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA44230928824702007C90B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA44230B28824702007C90B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA44230D28824702007C90B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA44230D28824702007C90B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BA44231028824702007C90B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA44231328824702007C90B5 /* NailArtApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NailArtApp.xcdatamodel; sourceTree = "<group>"; };
 		BA44231528824705007C90B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,12 +107,14 @@
 			children = (
 				BA44230928824702007C90B5 /* AppDelegate.swift */,
 				BA44230B28824702007C90B5 /* SceneDelegate.swift */,
-				BA44230D28824702007C90B5 /* ViewController.swift */,
+				BA44230D28824702007C90B5 /* HomeViewController.swift */,
 				BA44230F28824702007C90B5 /* Main.storyboard */,
 				BA44231528824705007C90B5 /* Assets.xcassets */,
 				BA44231728824705007C90B5 /* LaunchScreen.storyboard */,
 				BA44231A28824705007C90B5 /* Info.plist */,
 				BA44231228824702007C90B5 /* NailArtApp.xcdatamodeld */,
+				954BF5E22883114C00323D8A /* CameraViewController.swift */,
+				954BF5E4288311A800323D8A /* SocialViewController.swift */,
 			);
 			path = NailArtApp;
 			sourceTree = "<group>";
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA44230E28824702007C90B5 /* ViewController.swift in Sources */,
+				BA44230E28824702007C90B5 /* HomeViewController.swift in Sources */,
+				954BF5E32883114C00323D8A /* CameraViewController.swift in Sources */,
 				BA44230A28824702007C90B5 /* AppDelegate.swift in Sources */,
+				954BF5E5288311A800323D8A /* SocialViewController.swift in Sources */,
 				BA44230C28824702007C90B5 /* SceneDelegate.swift in Sources */,
 				BA44231428824702007C90B5 /* NailArtApp.xcdatamodeld in Sources */,
 			);
