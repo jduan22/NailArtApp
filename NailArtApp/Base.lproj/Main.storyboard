@@ -83,7 +83,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pjo-WN-56T"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.87058818339999999" green="0.49019610879999997" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="camera.fill" catalog="system" id="Zor-lh-gp8"/>
                     <connections>
@@ -147,8 +147,16 @@
                                                     <segue destination="Wy3-1h-b3P" kind="show" id="Taj-MG-pIj"/>
                                                 </connections>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nailart2" translatesAutoresizingMaskIntoConstraints="NO" id="HcM-oP-4RV">
+                                                <rect key="frame" x="-36" y="131" width="342" height="194"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nailart1" translatesAutoresizingMaskIntoConstraints="NO" id="OQw-MM-ZyN">
+                                                <rect key="frame" x="0.0" y="372" width="274" height="217"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.87058818339999999" green="0.49019610879999997" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="fDB-xX-4H3" secondAttribute="bottom" constant="1448" id="2HE-oA-Fno"/>
                                             <constraint firstItem="fDB-xX-4H3" firstAttribute="leading" secondItem="RWX-ZE-VEe" secondAttribute="leading" constant="-8" id="3Pd-yE-mQ2"/>
@@ -158,7 +166,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.44596035508224996" blue="0.73047809504209127" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.33333334329999997" green="0.73333334920000004" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="RWX-ZE-VEe" firstAttribute="top" secondItem="Sn6-rS-3Ch" secondAttribute="top" id="8gz-n8-ayc"/>
                                     <constraint firstItem="RWX-ZE-VEe" firstAttribute="top" secondItem="Sn6-rS-3Ch" secondAttribute="top" id="Oh3-tt-XPG"/>
@@ -202,7 +210,7 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3OP-BF-N9A">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.87058818339999999" green="0.49019610879999997" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="bhT-ER-juq"/>
                                         </constraints>
@@ -261,7 +269,7 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.87058818339999999" green="0.49019610879999997" blue="0.82352948189999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1500" id="bRi-6R-3BV"/>
                                         </constraints>
@@ -322,6 +330,8 @@
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="manicurehome" width="596" height="1091"/>
+        <image name="nailart1" width="828" height="1792"/>
+        <image name="nailart2" width="828" height="1792"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
