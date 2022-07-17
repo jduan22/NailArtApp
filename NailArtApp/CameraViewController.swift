@@ -17,10 +17,12 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     @IBOutlet weak var imageDisplay: UIImageView!
+    @IBOutlet weak var shareB: UIButton!
     
     func imagePickerController(_ _picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             imageDisplay.image = selectedImage
+            shareB.isHidden = false
         }
         
         imagePicker.dismiss(animated: true, completion: nil)
