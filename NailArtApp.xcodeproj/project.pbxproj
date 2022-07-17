@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		954BF5E32883114C00323D8A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954BF5E22883114C00323D8A /* CameraViewController.swift */; };
 		954BF5E5288311A800323D8A /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954BF5E4288311A800323D8A /* SocialViewController.swift */; };
+		95E2FB6328838E81006E5164 /* ARTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FB6228838E81006E5164 /* ARTestViewController.swift */; };
+		95E2FB6528838EAB006E5164 /* NailScene.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 95E2FB6428838EAB006E5164 /* NailScene.rcproject */; };
 		BA44230A28824702007C90B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44230928824702007C90B5 /* AppDelegate.swift */; };
 		BA44230C28824702007C90B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44230B28824702007C90B5 /* SceneDelegate.swift */; };
 		BA44230E28824702007C90B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA44230D28824702007C90B5 /* HomeViewController.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		954BF5E22883114C00323D8A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		954BF5E4288311A800323D8A /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		95E2FB6228838E81006E5164 /* ARTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTestViewController.swift; sourceTree = "<group>"; };
+		95E2FB6428838EAB006E5164 /* NailScene.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = NailScene.rcproject; sourceTree = "<group>"; };
 		BA44230628824702007C90B5 /* NailArtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NailArtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA44230928824702007C90B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA44230B28824702007C90B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				BA44230B28824702007C90B5 /* SceneDelegate.swift */,
 				BA44230D28824702007C90B5 /* HomeViewController.swift */,
 				BA44230F28824702007C90B5 /* Main.storyboard */,
+				95E2FB6228838E81006E5164 /* ARTestViewController.swift */,
+				95E2FB6428838EAB006E5164 /* NailScene.rcproject */,
 				BA44231528824705007C90B5 /* Assets.xcassets */,
 				BA44231728824705007C90B5 /* LaunchScreen.storyboard */,
 				BA44231A28824705007C90B5 /* Info.plist */,
@@ -270,9 +276,11 @@
 				BA44230E28824702007C90B5 /* HomeViewController.swift in Sources */,
 				954BF5E32883114C00323D8A /* CameraViewController.swift in Sources */,
 				BA44230A28824702007C90B5 /* AppDelegate.swift in Sources */,
+				95E2FB6328838E81006E5164 /* ARTestViewController.swift in Sources */,
 				954BF5E5288311A800323D8A /* SocialViewController.swift in Sources */,
 				BA44230C28824702007C90B5 /* SceneDelegate.swift in Sources */,
 				BA44231428824702007C90B5 /* NailArtApp.xcdatamodeld in Sources */,
+				95E2FB6528838EAB006E5164 /* NailScene.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRM48M33LP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NailArtApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -477,6 +486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XRM48M33LP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NailArtApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
