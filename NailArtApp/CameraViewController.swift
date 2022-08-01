@@ -11,6 +11,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     var imagePicker = UIImagePickerController()
     
+    // Take a selfie:
     @IBAction func takeSelfie(_ sender: Any) {
         imagePicker.sourceType = .camera
        present(imagePicker, animated: true, completion: nil)
@@ -19,6 +20,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var imageDisplay: UIImageView!
     @IBOutlet weak var shareB: UIButton!
     
+    // Set Image View to the selfie:
     func imagePickerController(_ _picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             imageDisplay.image = selectedImage
